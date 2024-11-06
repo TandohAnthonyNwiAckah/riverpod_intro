@@ -1,17 +1,14 @@
 # Riverpod Introduction
 A basic Flutter app using Riverpod for state management.
-Riverpod is a state management package in Flutter that is designed to be safe,
-simple, and highly performant. It is more flexible and less error-prone than some
-other state management solutions, allowing us to build scalable and maintainable Flutter
-applications.
+Riverpod is a state management package in Flutter that is designed to be safe, simple, and highly performant. It is more flexible and less error-prone than some other state management solutions, allowing us to build scalable and maintainable Flutter applications.
 
 In this project, we'll explore:
 
-- The basics of Riverpod
-- Using different types of providers (for state and computed values)
-- Creating and using custom notifier providers for more complex state management
-- Notifier Providers for complex state management with methods to add and remove items
-- Consumer Widgets to build reactive UIs that update when the state changes
+- The basics of Riverpod.
+- Using different types of providers (for state and computed values).
+- Creating and using custom notifier providers for more complex state management.
+- Notifier Providers for complex state management with methods to add and remove items.
+- Consumer Widgets to build reactive UIs that update when the state changes.
 
 ### Install Riverpod
 
@@ -29,15 +26,17 @@ dev_dependencies:
 
 To generate the code for any annotated providers, use the following command:
 
-    ```bash
+  ```bash
     flutter pub run build_runner build
-    ```
+  ```
 
 If you want the code generation to watch for changes automatically, you can run:
 
-        ```bash
-        flutter pub run build_runner watch
-        ```
+  ```bash
+    flutter pub run build_runner watch
+  ```
+
+
 
 ## Getting Started With Flutter
 
